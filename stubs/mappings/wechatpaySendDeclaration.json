@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/cgi-bin/mch/customs/customdeclareorder",
+    "bodyPatterns": [
+      {
+        "matchesXPath": {
+          "expression": "/xml/transaction_id/text()",
+          "contains": "20190305666666666"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": "200",
+    "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?><xml><return_code>SUCCESS</return_code><return_msg>成功</return_msg><sign_type>MD5</sign_type><sign>AC884AE6AD65B4259AC54A84D01DF602</sign><appid>wx9ef713703d20a6a0</appid><mch_id>1409694802</mch_id><result_code>SUCCESS</result_code><err_code>0</err_code><err_code_des>OK</err_code_des><state>UNDECLARED</state><transaction_id>4200000240201902242685660908</transaction_id><out_trade_no>FFWCCNF2PUYH32EAGJZA</out_trade_no><sub_order_no>AXP104641335</sub_order_no><sub_order_id>420000024020190224268566090800</sub_order_id><modify_time>20190225161103</modify_time><cert_check_result>SAME</cert_check_result><verify_department>OTHERS</verify_department><verify_department_trade_id>4200000240201902242685660908</verify_department_trade_id></xml>",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+version: '2.0'
+services:
+  mock-server:
+    container_name: mock_server
+    build: .
+    ports:
+      - "5050:8080"
+    volumes:
+      - ./stubs/:/home/wiremock
+

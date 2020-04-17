@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/panda/api/v0/api/v1/orders/XS8VCD"
+  },
+  "response": {
+    "status": "200",
+    "bodyFileName": "homepage/test.json",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}

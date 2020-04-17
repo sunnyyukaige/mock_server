@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/test",
+    "queryParameters" : {
+      "name" : {
+        "contains" : "sunny"
+      }
+    }
+  },
+  "response": {
+    "status": "200",
+    "bodyFileName": "KEN9.jpeg"
+  }
+}

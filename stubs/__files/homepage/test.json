@@ -1,0 +1,195 @@
+{
+  "id": "XS8VCD",
+  "checkoutOrderId": 86437186,
+  "userId": 29999596,
+  "paymentId": "FFALCNU2YLJFFJYMJEE6",
+  "currency": "CNY",
+  "shippingAddress": {
+    "firstName": "Cong",
+    "lastName": "Liu",
+    "addressLine1": "徐汇区斜土路1341弄小区1号楼402",
+    "city": {
+      "id": 595,
+      "name": "上海市",
+      "stateId": 509,
+      "countryId": 42
+    },
+    "state": {
+      "id": 509,
+      "code": "SH",
+      "name": "上海市",
+      "countryId": 42
+    },
+    "country": {
+      "id": 42,
+      "name": "中国大陆",
+      "nativeName": "China",
+      "alpha2Code": "CN",
+      "alpha3Code": "CHN",
+      "culture": "zh-CN",
+      "region": "亚太地区",
+      "continentId": 2
+    },
+    "zipCode": "200030",
+    "phone": "+86-18521421985",
+    "addressType": "Any"
+  },
+  "billingAddress": {
+    "firstName": "Cong",
+    "lastName": "Liu",
+    "addressLine1": "徐汇区斜土路1341弄小区1号楼402",
+    "city": {
+      "id": 0,
+      "name": "上海市",
+      "countryId": 42
+    },
+    "state": {
+      "id": 509,
+      "code": "SH",
+      "name": "上海市",
+      "countryId": 42
+    },
+    "country": {
+      "id": 42,
+      "name": "中国大陆",
+      "nativeName": "China",
+      "alpha2Code": "CN",
+      "alpha3Code": "CHN",
+      "culture": "zh-CN",
+      "region": "亚太地区",
+      "continentId": 2
+    },
+    "zipCode": "200030",
+    "phone": "+86-18521421985",
+    "addressType": "Any"
+  },
+  "createdDate": "2020-03-31T15:08:12.663Z",
+  "updatedDate": "2020-03-31T15:08:12.663Z",
+  "items": [
+    {
+      "id": 24318814,
+      "merchantId": 12427,
+      "merchantOrderId": 112538569,
+      "productId": 13894458,
+      "price": {
+        "priceExclTaxes": 2236.43,
+        "priceInclTaxes": 2775.00,
+        "discountExclTaxes": 0.00,
+        "discountInclTaxes": 0.00,
+        "discountRate": 0.0000,
+        "taxesRate": 24.0818,
+        "taxesValue": 538.5721,
+        "tags": [
+          "DDP"
+        ],
+        "priceWithoutPromotion": 2775.0
+      },
+      "attributes": [
+        {
+          "type": "Scale",
+          "value": "14"
+        },
+        {
+          "type": "Size",
+          "value": "17"
+        },
+        {
+          "type": "SizeDescription",
+          "value": "OS"
+        }
+      ],
+      "orderStatus": "InTransit",
+      "orderItemStatus": "WithStock",
+      "creationChannel": "Catalog",
+      "shippingService": {
+        "id": 72,
+        "name": "DHL Express China",
+        "description": "Express",
+        "type": "Express",
+        "minEstimatedDeliveryHour": 48.0,
+        "maxEstimatedDeliveryHour": 120.0,
+        "trackingCodes": [
+          "3789386090"
+        ],
+        "isMultiLeg": false
+      },
+      "returnRestriction": "None",
+      "isReturnAvailable": false,
+      "merchantOrderCode": "MDL112538569",
+      "productSummary": {
+        "productId": 13894458,
+        "shortDescription": "Celine 46N0E6BRA 35OR GOLD Brass ",
+        "description": "square pendant necklace"
+      }
+    },
+    {
+      "id": 24318816,
+      "merchantId": 11611,
+      "merchantOrderId": 112538570,
+      "productId": 15283722,
+      "price": {
+        "priceExclTaxes": 1923.71,
+        "priceInclTaxes": 2404.00,
+        "discountExclTaxes": 640.96,
+        "discountInclTaxes": 800.99,
+        "discountRate": 24.9920,
+        "taxesRate": 24.9672,
+        "taxesValue": 480.2965,
+        "tags": [
+          "PrivateSale",
+          "DDP"
+        ],
+        "priceWithoutPromotion": 3204.99
+      },
+      "attributes": [
+        {
+          "type": "Scale",
+          "value": "14"
+        },
+        {
+          "type": "Size",
+          "value": "17"
+        },
+        {
+          "type": "SizeDescription",
+          "value": "OS"
+        }
+      ],
+      "orderStatus": "InTransit",
+      "orderItemStatus": "WithStock",
+      "creationChannel": "Catalog",
+      "shippingService": {
+        "id": 72,
+        "name": "DHL Express China",
+        "description": "Express",
+        "type": "Express",
+        "minEstimatedDeliveryHour": 48.0,
+        "maxEstimatedDeliveryHour": 144.0,
+        "trackingCodes": [
+          "6998171913"
+        ],
+        "isMultiLeg": false
+      },
+      "returnRestriction": "None",
+      "isReturnAvailable": false,
+      "merchantOrderCode": "EWI112538570",
+      "productSummary": {
+        "productId": 15283722,
+        "shortDescription": "Elleme BAGUETTE NATURAL BLACK Straw ",
+        "description": "straw panel mini bag"
+      }
+    }
+  ],
+  "totalQuantity": 2,
+  "subTotalAmount": 5179.0025,
+  "totalDiscount": 1294.75,
+  "totalShippingFee": 0.0,
+  "totalTaxes": 1018.86860,
+  "grandTotal": 3884.25250,
+  "credit": 0.0,
+  "customerType": "Normal",
+  "subTotalAmountExclTaxes": 4160.13390,
+  "customerEmail": "george.liu@farfetch.com",
+  "totalDomesticTaxes": 0.00000,
+  "promocode": "25_FF"
+}
