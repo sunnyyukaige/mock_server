@@ -1,12 +1,12 @@
 {
   "id" : "096f191f-4166-4ec2-9630-13c47342a253",
   "request" : {
-    "url" : "/some/thing1",
+    "url" : "/hello",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "body" : "Hello world1!",
+    "body" : "Welcome to mock-server",
     "headers" : {
       "Content-Type" : "text/plain"
     }

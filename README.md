@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# mock_server
-mock_server with docker 
-=======
 # Mock-server
 
 ## Environment preparation
@@ -14,4 +10,3 @@ mock_server with docker
 ### run: docker-compose up -d --build
 ### check api work or not by: http://localhost:5050/hello
 
->>>>>>> add readme

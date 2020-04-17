@@ -7,4 +7,18 @@ services:
       - "5050:8080"
     volumes:
       - ./stubs/:/home/wiremock
+  mock-server-https:
+    container_name: mock_server_https
+    build: .
+    ports:
+      - "6060:8443"
+    volumes:
+      - ./stubs/:/home/wiremock
+
+
+
+
+
+
+
 
